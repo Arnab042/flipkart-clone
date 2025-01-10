@@ -146,7 +146,7 @@ li:hover {
     overflow: hidden;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width:401px)and(max-width: 600px  ) {
     
     .btn{
         width: 60px;
@@ -328,14 +328,18 @@ li:hover {
     .beauty{
         height: 18vh;
     }
-    .tv{height: 45vh;}
+    .tv{height: 40vh;}
     .fashion{
         height: 34vh;}
     .plane{
-        height: 16vh;
+        height: 18vh;
     }
-    .electronics ,.mobiles{
-        height: 16vh;
+    .electronics {
+        height: 18vh;
     }
+    .mobiles,.furniture,.toys{
+        height: 19vh;
+    }
+
 
   }
