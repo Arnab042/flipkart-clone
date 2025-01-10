@@ -239,3 +239,103 @@ li:hover {
     
 
   }
+
+  @media only screen and (max-width: 400px) {
+    
+    .btn{
+        width: 60px;
+        height: 3vh;
+        font-size: 0.5em;
+    }
+    .header{
+        width: 100%;
+    }
+    ul{
+        padding: 0;
+        
+        font-size: 0.4em;
+    }
+    li{
+        padding:0.1px;
+        font-size: 0.7rem;
+    }
+    .main_logo{
+        width: 10vw;
+        height: 3.5vh;
+        
+    }
+    .side_logo{
+        visibility: hidden;
+    }
+    #search{
+        width: 25vw;
+        height: 2vh;
+        font-size: 0.6rem;
+    }
+    .sale1{
+        width: auto;
+        height: 40vh;
+    }
+    .slider{
+        display: flex;
+        width: auto;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 80vh;
+        
+    }
+    .slider-img{
+        width: 24vw;
+        height: auto;
+    }
+    .grocery , .mobiles ,.fashion , .electronics ,.furniture,.tv,.plane,.toys,.beauty{
+        width: 25vw;
+        padding:0 ;
+        font-size: 0.8em;
+    }   
+    footer{
+        height: 2vh;
+        font-size: 0.8rem;
+    }
+    .sale1{
+        visibility: hidden;
+    }
+    .container{
+        
+        
+        height: 27vh;
+        animation-name: sale-pic;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes sale-pic{
+        0%{
+            background-image: url(sale1.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        50%{
+            background-image: url(sale2.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        100%{
+            background-image: url(sale3.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    }
+    .beauty{
+        height: 18vh;
+    }
+    .tv{height: 45vh;}
+    .fashion{
+        height: 34vh;}
+    .plane{
+        height: 16vh;
+    }
+    .electronics ,.mobiles{
+        height: 16vh;
+    }
+
+  }
