@@ -140,210 +140,440 @@ li:hover {
 
 .text-ali {
     text-align: center;
-    font-weight: bold ;
+    font-weight: bold;
 }
-.over-hid{
+
+.over-hid {
     overflow: hidden;
 }
 
-@media only screen and (min-width:401px)and(max-width: 600px  ) {
+@media only screen and (max-width: 600px) {
     
-    .btn{
+    .btn {
         width: 60px;
         height: 3vh;
         font-size: 0.5em;
     }
-    .header{
+
+    .header {
         width: 100%;
     }
-    ul{
+
+    ul {
         padding: 0;
-        
+
         font-size: 0.4em;
     }
-    li{
-        padding:0.1px;
+
+    li {
+        padding: 0.1px;
         font-size: 0.7rem;
     }
-    .main_logo{
+
+    .main_logo {
         width: 10vw;
         height: 3.5vh;
-        
+
     }
-    .side_logo{
+
+    .side_logo {
         visibility: hidden;
     }
-    #search{
+
+    #search {
         width: 25vw;
         height: 2vh;
         font-size: 0.6rem;
     }
-    .sale1{
+
+    .sale1 {
         width: auto;
         height: 40vh;
     }
-    .slider{
+
+    .slider {
         display: flex;
         width: auto;
         flex-direction: column;
         flex-wrap: wrap;
         height: 80vh;
-        
+
     }
-    .slider-img{
+
+    .slider-img {
         width: 24vw;
         height: auto;
     }
-    .grocery , .mobiles ,.fashion , .electronics ,.furniture,.tv,.plane,.toys,.beauty{
+
+    .grocery,
+    .mobiles,
+    .fashion,
+    .electronics,
+    .furniture,
+    .tv,
+    .plane,
+    .toys,
+    .beauty {
         width: 20vw;
-        padding:0 ;
+        padding: 0;
         font-size: 0.8em;
-    }   
-    footer{
+    }
+
+    footer {
         height: 2vh;
         font-size: 0.8rem;
     }
-    .sale1{
+
+    .sale1 {
         visibility: hidden;
     }
-    .container{
-        
-        
+
+    .container {
+
+
         height: 27vh;
         animation-name: sale-pic;
         animation-duration: 10s;
         animation-iteration-count: infinite;
     }
-    @keyframes sale-pic{
-        0%{
+
+    @keyframes sale-pic {
+        0% {
             background-image: url(sale1.jpg);
             background-size: cover;
             background-repeat: no-repeat;
         }
-        50%{
+
+        50% {
             background-image: url(sale2.jpg);
             background-size: cover;
             background-repeat: no-repeat;
         }
-        100%{
+
+        100% {
             background-image: url(sale3.jpg);
             background-size: cover;
             background-repeat: no-repeat;
         }
     }
-    .beauty{
+
+    .beauty {
         height: 18vh;
+        
     }
-    .tv{height: 25vh;}
-    .fashion{height: 20vh;}
-    
 
-  }
+    .tv {
+        height: 25vh;
+    }
 
-  @media only screen and (max-width: 400px) {
+    .fashion {
+        height: 20vh;
+    }
+
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 500px) {
     
-    .btn{
+    
+    .btn {
         width: 60px;
         height: 3vh;
         font-size: 0.5em;
     }
-    .header{
+
+    .header {
         width: 100%;
     }
-    ul{
+
+    ul {
         padding: 0;
-        
+
         font-size: 0.4em;
     }
-    li{
-        padding:0.1px;
+
+    li {
+        padding: 0.1px;
         font-size: 0.6rem;
     }
-    .main_logo{
+
+    .main_logo {
         width: 13vw;
         height: 3.5vh;
         margin-right: 15px;
         margin-top: 11px;
-        
+
     }
-    .side_logo{
+
+    .side_logo {
         visibility: hidden;
     }
-    #search{
+
+    #search {
         width: 25vw;
         height: 2vh;
         font-size: 0.6rem;
     }
-    .sale1{
+
+    .sale1 {
         width: auto;
         height: 40vh;
     }
-    .slider{
+
+    .slider {
         display: flex;
         width: auto;
         flex-direction: column;
         flex-wrap: wrap;
         height: 80vh;
-        
+
     }
-    .slider-img{
+
+    .slider-img {
         width: 24vw;
         height: auto;
     }
-    .grocery , .mobiles ,.fashion , .electronics ,.furniture,.tv,.plane,.toys,.beauty{
+
+    .grocery,
+    .mobiles,
+    .fashion,
+    .electronics,
+    .furniture,
+    .tv,
+    .plane,
+    .toys,
+    .beauty {
         width: 25vw;
-        padding:0 ;
+        padding: 0;
         font-size: 0.8em;
-    }   
-    footer{
+    }
+
+    footer {
         height: 2vh;
         font-size: 0.8rem;
     }
-    .sale1{
+
+    .sale1 {
         visibility: hidden;
     }
-    .container{
-        
-        
+
+    .container {
+
+
         height: 27vh;
         animation-name: sale-pic;
         animation-duration: 10s;
         animation-iteration-count: infinite;
     }
-    @keyframes sale-pic{
-        0%{
+
+    @keyframes sale-pic {
+        0% {
             background-image: url(sale1.jpg);
             background-size: cover;
             background-repeat: no-repeat;
         }
-        50%{
+
+        50% {
             background-image: url(sale2.jpg);
             background-size: cover;
             background-repeat: no-repeat;
         }
-        100%{
+
+        100% {
             background-image: url(sale3.jpg);
             background-size: cover;
             background-repeat: no-repeat;
         }
     }
-    .beauty{
+
+    .beauty {
         height: 18vh;
     }
-    .tv{height: 40vh;}
-    .fashion{
-        height: 34vh;}
-    .plane{
+
+    .tv {
+        height: 40vh;
+    }
+
+    .fashion {
+        height: 34vh;
+    }
+
+    .plane {
         height: 18vh;
     }
+
     .electronics {
         height: 18vh;
     }
-    .mobiles,.furniture,.toys{
+
+    .mobiles,
+    .furniture,
+    .toys {
         height: 19vh;
     }
-    .fur{margin: 29px 0 0 0 ;}
-    .fur2{margin: 20px 0 0 0;}
+
+    .fur {
+        margin: 29px 0 0 0;
+    }
+
+    .fur2 {
+        margin: 20px 0 0 0;
+    }
 
 
-  }
+}
+@media only screen and (max-width: 500px) {
+    
+    
+    .btn {
+        width: 60px;
+        height: 3vh;
+        font-size: 0.5em;
+    }
+
+    .header {
+        width: 100%;
+    }
+
+    ul {
+        padding: 0;
+
+        font-size: 0.4em;
+    }
+
+    li {
+        padding: 0.1px;
+        font-size: 0.6rem;
+    }
+
+    .main_logo {
+        width: 13vw;
+        height: 3.5vh;
+        margin-right: 15px;
+        margin-top: 11px;
+
+    }
+
+    .side_logo {
+        visibility: hidden;
+    }
+
+    #search {
+        width: 25vw;
+        height: 2vh;
+        font-size: 0.6rem;
+    }
+
+    .sale1 {
+        width: auto;
+        height: 40vh;
+    }
+
+    .slider {
+        display: flex;
+        width: auto;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 80vh;
+
+    }
+
+    .slider-img {
+        width: 24vw;
+        height: auto;
+    }
+
+    .grocery,
+    .mobiles,
+    .fashion,
+    .electronics,
+    .furniture,
+    .tv,
+    .plane,
+    .toys,
+    .beauty {
+        width: 25vw;
+        padding: 0;
+        font-size: 0.8em;
+    }
+
+    footer {
+        height: 2vh;
+        font-size: 0.8rem;
+    }
+
+    .sale1 {
+        visibility: hidden;
+    }
+
+    .container {
+
+
+        height: 27vh;
+        animation-name: sale-pic;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes sale-pic {
+        0% {
+            background-image: url(sale1.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        50% {
+            background-image: url(sale2.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        100% {
+            background-image: url(sale3.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    }
+
+    .beauty {
+        height: 18vh;
+    }
+
+    .tv {
+        height: 40vh;
+    }
+
+    .fashion {
+        height: 34vh;
+    }
+
+    .plane {
+        height: 18vh;
+    }
+
+    .electronics {
+        height: 18vh;
+    }
+
+    .mobiles,
+    .furniture,
+    .toys {
+        height: 19vh;
+        
+    }
+
+    .fur {
+        margin: 29px 0 0 0;
+    }
+
+    .fur2 {
+        margin: 20px 0 0 0;
+    }
+
+
+}
