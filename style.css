@@ -257,11 +257,13 @@ li:hover {
     }
     li{
         padding:0.1px;
-        font-size: 0.7rem;
+        font-size: 0.6rem;
     }
     .main_logo{
-        width: 10vw;
+        width: 13vw;
         height: 3.5vh;
+        margin-right: 15px;
+        margin-top: 11px;
         
     }
     .side_logo{
@@ -340,6 +342,8 @@ li:hover {
     .mobiles,.furniture,.toys{
         height: 19vh;
     }
+    .fur{margin: 29px 0 0 0 ;}
+    .fur2{margin: 20px 0 0 0;}
 
 
   }
